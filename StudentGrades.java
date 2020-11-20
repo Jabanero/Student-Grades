@@ -3,7 +3,7 @@ import java.util.*;
 
 public class StudentGrades {
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<Student> students = new ArrayList<Student>()
+        ArrayList<Student> students = new ArrayList<Student>();
         Scanner fileScanner = new Scanner(new File("grades.txt"));
         while (fileScanner.hasNextLine()) {
             Scanner line = new Scanner(fileScanner.nextLine());
